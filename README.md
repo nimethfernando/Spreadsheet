@@ -4,11 +4,37 @@ Overview
 Features
 <ul> <li>Upload two Excel files (<code>Our.xlsx</code> and <code>Invoice.xlsx</code>).</li> <li>Compares rows based on column matches (e.g., <code>Site</code>, <code>Perfects Project</code>).</li> <li>Generates a downloadable Excel file with two sheets: <ul> <li><strong>Similar</strong>: Matching rows.</li> <li><strong>Non-Similar</strong>: Non-matching rows.</li> </ul> </li> </ul>
 Installation
-<p>To run the app, you'll need the following:</p> <ul> <li>Python 3.x</li> <li>Flask</li> <li>Pandas</li> <li>OpenPyXL</li> </ul> <p>Install the required libraries:</p>
-pip install flask pandas openpyxl
-Running the App
-<ol> <li>Clone the repository or download the files.</li> <li>Run the app using:</li> </ol>
+## Setup
 
-python app.py
+1. Clone the repository
+
+    ```bash
+    git clone https://github.com/your-username/your-flask-app.git
+    ```
+
+2. Install the dependencies
+
+    ```bash
+    cd your-flask-app
+    pip install -r requirements.txt
+    ```
+
+3. Create the `uploads` folder (if it doesn't exist)
+
+    ```bash
+    mkdir uploads
+    ```
+
+4. Run the Flask app
+
+    ```bash
+    python app.py
+    ```
+
+5. Open the app in your browser:
+
+    - Go to [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+
 
 <p>3. Visit <a href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a> in your browser.</p>
