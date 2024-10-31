@@ -4,7 +4,7 @@ Overview
 Features
 <ul> <li>Upload two Excel files (<code>Our.xlsx</code> and <code>Invoice.xlsx</code>).</li> <li>Compares rows based on column matches (e.g., <code>Site</code>, <code>Perfects Project</code>).</li> <li>Generates a downloadable Excel file with two sheets: <ul> <li><strong>Similar</strong>: Matching rows.</li> <li><strong>Non-Similar</strong>: Non-matching rows.</li> </ul> </li> </ul>
 
-Installation
+Installation.
 
 1. Install the dependencies
 
