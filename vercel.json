@@ -1,0 +1,10 @@
+{
+  "builds": [
+    { "src": "api/index.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/download/(.*)", "dest": "api/index.py" },
+    { "src": "/upload", "dest": "api/index.py" },
+    { "src": "/", "dest": "api/index.py" }
+  ]
+}
